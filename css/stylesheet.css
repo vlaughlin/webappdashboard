@@ -166,11 +166,16 @@ a:active {
 }
 
 .flex-item-1 {
-    order: 0 flex: 0 0 auto align-self: auto
+    order: 0; 
+    flex: 0 0 auto;
+    align-self: auto;
 }
 
 .flex-item-2 {
-    order: 0 flex: 0 0 auto align-self: auto border: 1px solid #7477bf;
+    order: 0; 
+    flex: 0 0 auto; 
+    align-self: auto; 
+    
 }
 
 .dash-title {
@@ -249,11 +254,15 @@ a:active {
 }
 
 .bar-chart {
-    order: 0 flex: 0 0 auto align-self: auto
+    order: 0;
+    flex: 0 0 auto;
+    align-self: auto;
 }
 
 .pie-chart {
-    width: order: 0 flex: 0 0 auto align-self: auto
+    order: 0; 
+    flex: 0 0 auto; 
+    align-self: auto;
 }
 
 .traffic-navigation {
@@ -281,7 +290,9 @@ ul.traffic-navigation li a {
 }
 
 .line-chart {
-    order: 0 flex: 0 0 auto align-self: auto
+    order: 0;
+    flex: 0 0 auto;
+    align-self: auto;
 }
 
 #myChart {
@@ -320,7 +331,9 @@ ul.traffic-navigation li a {
 }
 
 .social-widgets {
-    order: 0 flex: 0 0 auto align-self: auto
+    order: 0;
+    flex: 0 0 auto;
+    align-self: auto;
 }
 
 .social-widgets span {
@@ -659,13 +672,19 @@ textarea {
     }
     .bar-chart {
         margin-right: -470px;
-        order: 0 flex: 0 0 auto align-self: auto
+        order: 0;
+        flex: 0 0 auto;
+        align-self: auto;
     }
     .pie-chart {
-        order: 0 flex: 0 0 auto align-self: auto
+        order: 0; 
+        flex: 0 0 auto;
+        align-self: auto;
     }
     .line-chart {
-        order: 0 flex: 0 0 auto align-self: stretch
+        order: 0;
+        flex: 0 0 auto;
+        
     }
     .line-chart {
         width: 700px;
@@ -676,7 +695,7 @@ textarea {
     }
     #myDoughnutChart {
         position: relative;
-        width: 180px;
+        max-width:280px;
     }
     .social-widgets {
         display: flex;
